@@ -1,0 +1,98 @@
+.container-main {
+  height: 703px;
+  top: -513px;
+  left: -720px;
+  gap: 0px;
+  opacity: 0px;
+  background: linear-gradient(180deg, #9e9e9d 0%, #f3f3f3 100%);
+  display: flex;
+  flex-direction: column;
+}
+.main-welcome-text {
+  width: 426px;
+  height: 96px;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 96px;
+  letter-spacing: 0.21em;
+  text-align: center;
+  color: #000000;
+}
+
+.main-make-your-attendance {
+  width: 734px;
+  height: 96px;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 0px;
+  opacity: 0px;
+}
+
+.main-make-your-attendance-text {
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 96px;
+  text-align: center;
+  color: #000000;
+}
+.main-login-button {
+  width: 350px;
+  height: 101px;
+  top: 498px;
+  left: 559px;
+  gap: 0px;
+  border-radius: 30px 30px 30px 30px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
+  background: #29ffad;
+  border-bottom: 4px dashed #444444;
+  margin-left: 580px;
+  margin-top: 500px;
+  cursor: pointer;
+  transition: background 0.3s ease, opacity 0.3s ease;
+}
+.main-login-button:hover {
+  background: #26e49a; /* Change background color on hover */
+  opacity: 0.8; /* Change opacity on hover */
+}
+.main-login-button-text {
+  width: 172px;
+  height: 96px;
+  top: 498px;
+  left: 648px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 96px;
+  text-align: center;
+  margin-left: 100px;
+  color: azure;
+}
+.main-image-number {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 500px;
+  margin-left: -30px;
+}
+
+.main-image-rocket {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 700px;
+  margin-right: -110px;
+}
